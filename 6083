@@ -1,0 +1,14 @@
+r,g,b = list(map(int,input().split()))
+
+count = 0
+r = int(r)
+g = int(g)
+b = int(b)
+
+for rr in range(r):
+    for gg in range(g):
+      for bb in range(b):
+          print(rr,gg,bb)
+          count=count+1
+print(count)
+          
