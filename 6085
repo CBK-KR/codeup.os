@@ -1,0 +1,7 @@
+w,h,b = input().split()
+
+res=int(w)*int(h)*int(b)/1024/1024/8
+
+print('%.2f'%res,"MB")
+
+출처: https://s0ng.tistory.com/entry/CodeUp-코드업-기초-100제-6085번-풀이-파이썬python [S0NG의 정보보안 블로그]
